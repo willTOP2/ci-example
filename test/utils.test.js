@@ -3,7 +3,7 @@ const { gerarNumeroAleatorio, acharCaracter } = require('../lib/utils');
 describe('Utils', () => {
     describe('gerarNumeroAleatorio', () => {
         test('fim nao pode ser negativo', () => {
-            expect(gerarNumeroAleatorio(20, -5))
+            expect(gerarNumeroAleatorio(-20, 23))
                 .toBe(-1);
         });
     });
